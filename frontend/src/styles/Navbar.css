@@ -1,0 +1,72 @@
+.navbar {
+  position: relative;
+  background: #e1e1e13a;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(225, 225, 225, 0.586);
+  border-right: 1px solid rgba(225, 225, 225, 0.2);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+  border-radius: 15px;
+  z-index: 10;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+}
+
+.nav--pages {
+  display: flex;
+  gap: 2rem;
+
+}
+
+.nav--first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.nav-logo {
+  width: 100px;
+}
+
+.nav-head {
+  font-size: 40px;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(201,3,3,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-items {
+  color: white;
+}
+
+:link {
+  text-decoration: none;
+}
+
+.nav-items:hover {
+  color: aqua;
+
+}
+
+.nav-items:active {
+  color: rgb(0, 70, 0);
+
+}
+
+.small-logos {
+  width: 50px;
+}
+
+.col-green {
+  color: green;
+}
