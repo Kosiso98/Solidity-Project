@@ -6,9 +6,10 @@
 .marketplace {
   margin: 0;
   padding: 0;
+  width: 100%;
   background-repeat: no-repeat;
   background: rgb(255,0,0);
-  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(90deg, #cb363c 0%, #696594 100%);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -18,7 +19,7 @@
 .card {
   position: relative;
   width: 90rem;
-  background: rgba(225, 225, 225, 0.227);
+  background: #696594;
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(225, 225, 225, 0.586);
   border-right: 1px solid rgba(225, 225, 225, 0.2);

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Profile.css';
 import Navbar from './Navbar';
-import jiraiya from '../images/jiraiya.png';
+import demon from '../images/demon.png';
 import MarketplaceJSON from '../Marketplace.json';
 import NftCard from './NftCard';
 import { ethers } from 'ethers';
@@ -69,13 +69,13 @@ const Profile = () => {
       <div className="card">
         <Navbar />
         <div className="profile-text">
-          <strong className='pt'>Hey Otaku's, this is your all NFTs:</strong>
-          <img className='profile-img' src={jiraiya} />
+          <strong className='pt'>Hey Mary's, this is all your NFTs:</strong>
+          <img className='profile-img' src={demon} />
         </div>
         <div className="profile-nft">
           <div className="profile-information">
-            <strong className='information pt'>You have Total: {data.length} NFTs</strong>
-            <strong className='information pt'>The Total Amount of NFTs: {totalPrice} eth</strong>
+            <strong className='information pt'>Total: {data.length} NFTs</strong>
+            <strong className='information pt'>Price: {totalPrice} ETH</strong>
           </div>
           <div className="profile-nft-collection">
             {data.map((value, index) => {

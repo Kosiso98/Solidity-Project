@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   background-repeat: no-repeat;
-  background: rgb(255, 0, 0);
-  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+  background: #696594;
+  background: linear-gradient(90deg, #d47592, #e88b33,#455382);
   min-height: 100vh;
   background-size: cover;
   display: flex;
@@ -14,8 +14,8 @@
 
 .card {
   position: relative;
-  width: 90rem;
-  min-height: 40rem;
+  width: 95vw;
+  min-height: 60%;
   background: rgba(225, 225, 225, 0.227);
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(225, 225, 225, 0.586);
@@ -33,17 +33,18 @@
 }
 
 .profile-text {
-  font-size: 40px;
+  font: size 80%;
   display: flex;
+  color: aliceblue;
 }
 
 .profile-img {
-  width: 8em;
+  width: 60%;
 }
 
 .profile-nft {
   position: relative;
-  min-height: 20rem;
+  min-height: 20%;
   background: rgba(225, 225, 225, 0.227);
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(225, 225, 225, 0.586);
@@ -55,7 +56,7 @@
   backdrop-filter: blur(5px);
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2vw;
   
   justify-content: flex-start;
 }
@@ -66,7 +67,7 @@
 }
 
 .information {
-  font-size: 1.7rem;
+  font-size: 20px;
 }
 
 .profile-nft-collection {
