@@ -6,6 +6,10 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "hardhat/console.sol";
 
+/*The contract is built on the OpenZeppelin library and uses the ERC721 standard for non-fungible tokens.
+It allows users to create and sell NFTs on the marketplace, as well as set the listing price and keep track of which NFTs have been sold.
+The contract also has a function for users to buy an NFT, which will transfer ownership of the NFT to the buyer and transfer the funds to the seller. Additionally,
+there are functions for viewing the listing price, getting information about a listed NFT, and fetching all unsold NFTs.*/
 contract NFTMarketplace is ERC721URIStorage {
 
   using Counters for Counters.Counter;
