@@ -2,7 +2,10 @@
 pragma solidity ^0.8.7;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-
+/* The contract is designed to hold an auction for a specific NFT, with a specified starting bid, end time, and seller. 
+Users can bid on the NFT and check the current highest bid. The seller has the ability to start and end the auction, 
+and users can withdraw any funds they have placed as a bid.
+The contract uses the ERC721 standard for the NFT and emits events such as Start, Bid, Withdraw, and End.*/
 contract Auction {
   event Start();
   event Bid(address indexed spender, uint256 amount);
