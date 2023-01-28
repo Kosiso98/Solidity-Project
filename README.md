@@ -79,7 +79,8 @@ Before running the project, create a pinata account and get your  PINATA API KEY
 <br>Connect wallet[x]
 
 
-
+<br/>
+<br/>
 🔮 Usage
 To use this application as your own, follow these simple steps:
 
@@ -89,7 +90,8 @@ Install Dependecies (npm install)
 
 Run Project (npm start)
 
-
+<br/>
+<br/>
 
 🤝## :handshake Contributing
 
@@ -108,6 +110,9 @@ Please make sure to update tests as appropriate. 😊
 
  5. Open a Pull Request
 
+<br/>
+<br/>
+<br/>
 
 
 
@@ -128,7 +133,8 @@ copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+copies or substantial portions of the Software.<br/>
+<br/>
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
