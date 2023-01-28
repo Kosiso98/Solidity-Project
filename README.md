@@ -1,10 +1,8 @@
 
-**Project Title**<br/>
-MaryMart<br/>
-
-**Project Description**
-
+# MaryMart<br/>
 A decentralized Nft Marketplace for anime lovers,built on the ethereum blockchain<br/>
+
+
 
 **Project Snapshot**<br/>
 **Homepage
@@ -16,6 +14,7 @@ A decentralized Nft Marketplace for anime lovers,built on the ethereum blockchai
 **Profile Page
 
 ![Screenshot (52)](https://user-images.githubusercontent.com/114183913/214992084-e685628f-812f-4703-8191-ab64227587ab.png)
+
 
 
 **Project Website Link**
@@ -48,6 +47,7 @@ npm run build
 
 ```
 
+
 Additional Information:
 
 * __Setup Pinata__ : <br><br>
@@ -56,12 +56,13 @@ Before running the project, create a pinata account and get your  PINATA API KEY
 
 
 
+
 **Usage**
 
  This project is still under production and as such different functionalities may not work as required, the blockchain industry is still evolving.
  The projectbis an open source, and can be used as needed, run as a test.
 
-** Build with🚀
+# Build with🚀
 * [Solidity](https://docs.soliditylang.org/)
 * [Hardhat](https://hardhat.org/getting-started/)
 * [React.js](https://reactjs.org/)
@@ -69,13 +70,14 @@ Before running the project, create a pinata account and get your  PINATA API KEY
 * [Pinata](https://www.pinata.cloud/)
 
 
-**Implementation Details**
+# Implementation Details**
 
 <br/>Homepage[x]
 <br/>Create NFT[x]
 <br/>Buy NFT[x]
 <br/>Profile[x]
 <br>Connect wallet[x]
+
 
 
 🔮 Usage
@@ -86,6 +88,8 @@ Fork this Repository (https://github.com/Kosiso98/Solidity-Project.git)
 Install Dependecies (npm install)
 
 Run Project (npm start)
+
+
 
 🤝## :handshake Contributing
 
@@ -103,6 +107,10 @@ Please make sure to update tests as appropriate. 😊
  4. Push to the Branch (git push origin feature/coolFeature)
 
  5. Open a Pull Request
+
+
+
+
 
 
 
@@ -130,5 +138,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
