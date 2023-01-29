@@ -4,7 +4,7 @@ A decentralized Nft Marketplace for anime lovers,built on the ethereum blockchai
 
 
 
-**Project Snapshot**<br/>
+## **Project Snapshot**<br/>
 **Homepage
 ![Screenshot (48)](https://user-images.githubusercontent.com/114183913/214992010-098f395d-f44b-470a-8880-2555435a9d02.png)
 
@@ -21,10 +21,11 @@ A decentralized Nft Marketplace for anime lovers,built on the ethereum blockchai
 
 The live site can be viewed at https://marymart.netlify.app/
 
-**Project Author**
+## **Project Author**
 
-Kosiso Onah(Kosiso98)
-****How to Install and Run the Project****
+Kosiso Onah(Kosiso98)<br/>
+
+## **How to Install and Run the Project**
 - Clone the repository
 ```git
 git clone (https://github.com/Kosiso98/Solidity-Project.git)
@@ -52,17 +53,11 @@ Additional Information:
 
 * __Setup Pinata__ : <br><br>
 Before running the project, create a pinata account and get your  PINATA API KEY;
-// PINATA SECRET KEY, copy them to an .env file in the /frontend/src/pinata.js;
+// PINATA SECRET KEY, copy them to an .env file in the /frontend/src/pinata.js;<br/>
 
 
 
-
-**Usage**
-
- This project is still under production and as such different functionalities may not work as required, the blockchain industry is still evolving.
- The projectbis an open source, and can be used as needed, run as a test.
-
-# Build with🚀
+## **Build with🚀**<br/>
 * [Solidity](https://docs.soliditylang.org/)
 * [Hardhat](https://hardhat.org/getting-started/)
 * [React.js](https://reactjs.org/)
@@ -81,8 +76,14 @@ Before running the project, create a pinata account and get your  PINATA API KEY
 
 <br/>
 <br/>
-🔮 Usage
-To use this application as your own, follow these simple steps:
+
+
+## **🔮Usage** <br/>
+
+ This project is still under production and as such different functionalities may not work as required, the blockchain industry is still evolving.
+ The project is an open source, and can be used as needed, run as a test.
+
+<br/>To use this application as your own, follow these simple steps:
 
 Fork this Repository (https://github.com/Kosiso98/Solidity-Project.git)
 
@@ -93,7 +94,7 @@ Run Project (npm start)
 <br/>
 <br/>
 
-🤝## :handshake Contributing
+## **🤝handshake Contributing**<br/>
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
@@ -119,7 +120,7 @@ Please make sure to update tests as appropriate. 😊
 
 
 
-**License**
+## **License**
 
 -MIT License
 
