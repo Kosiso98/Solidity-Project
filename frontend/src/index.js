@@ -8,6 +8,10 @@ import CreateNFT from './components/CreateNFT';
 import NFTTitle from './components/NFTTitle';
 
 
+/*This code imports React and ReactDOM and sets up client-side routing for an app using the react-router-dom library. 
+It sets up four routes: '/' for the Marketplace component, '/create' for the CreateNFT component, '/nfttitle/:tokenId' for the NFTTitle component, and '/profile' for the Profile component. It then renders the root component, which is wrapped in a BrowserRouter component, to the DOM element with the id of 'root'.
+Lastly, it calls the reportWebVitals function, which is likely used for measuring performance in the app.*/
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
