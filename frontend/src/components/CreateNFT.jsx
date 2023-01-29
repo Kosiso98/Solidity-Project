@@ -8,7 +8,12 @@ import { uploadFileToIPFS, uploadJSONToIPFS } from '../pinata';
 import MarketplaceJSON from '../Marketplace.json';
 import { ethers } from 'ethers';
 
-
+/*The code is a React component that allows a user to create and upload a Non-Fungible Token (NFT) to the Ethereum blockchain.
+The component uses the React Hooks useState to manage the component's state, which includes the selected image file, the form input values, 
+and the IPFS hash of the uploaded image and metadata. The component also uses the ethers library to interact with the Ethereum blockchain and the user's wallet. 
+The component has several functions such as onChangeFile, uploadMetadataToIPFS, and submit that handle different tasks such as uploading the image to IPFS,
+uploading the metadata to IPFS and creating the NFT on the Ethereum blockchain by calling smart contract functions.
+*/
 
 const CreateNFT = () => {
 
