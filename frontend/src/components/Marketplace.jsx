@@ -8,6 +8,15 @@ import NftCard from './NftCard';
 import axios from 'axios';
 import { ethers } from 'ethers';
 
+/*
+This code is a React functional component called "Marketplace" that displays a collection of non-fungible tokens (NFTs) on a webpage. 
+The component imports several modules and components, including React, the Navbar component, an image of a banner and an image of a character, 
+as well as a JSON file containing the contract information for the NFT marketplace. 
+The component also uses the useState hook to maintain the state of the data for the NFTs and a boolean for whether the data has been fetched yet. 
+The component also uses the "getAllNFTs" function to fetch all the NFTs from the marketplace contract and display them on the page using the NftCard component.
+The component is exported at the end to be used in other parts of the application.
+*/
+
 const Marketplace = () => {
 
   const sampleData = [
