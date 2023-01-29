@@ -12,6 +12,17 @@ import { ethers } from 'ethers';
 import { useLocation } from 'react-router';
 
 
+
+/*
+This is a React functional component that renders a navigation bar for an application.
+It uses the useState and useEffect hooks from the react library to handle state and side effects. 
+The component also imports and uses Material UI icons, as well as the Link component from the react-router-dom library to handle client-side routing. 
+The component also uses the ethers library to connect to the user's Ethereum wallet.
+The component's Connect function prompts the user to connect their Ethereum wallet, 
+and the component's useEffect hook listens for changes to the user's Ethereum accounts and updates the component's state and the browser's location accordingly.
+
+*/
+
 const Navbar = () => {
 
   const [connect, setConnect] = useState(false)
