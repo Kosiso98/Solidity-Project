@@ -11,7 +11,15 @@ import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import ListNFTButtons from './ListNFTButtons';
 
+/*
 
+The code is a React functional component that renders an NFT title page. It uses the 'react-router-dom' library to get the tokenId from the URL as a parameter. 
+It then uses the 'useState' hook to set the state of the component and the 'ethers' library to interact with the Ethereum blockchain.
+It uses the 'getNFTData' function to fetch data about the NFT using the tokenId and the 'Marketplace.json' contract. 
+The 'buyNFT' function is used to buy the NFT by sending a transaction to the smart contract with the correct tokenId and the price of the NFT in Ether.
+It also uses 'axios' library to fetch the meta data from the tokenURI. 
+The component also uses Material-UI for styling
+*/
 
 const NFTTitle = () => {
 
