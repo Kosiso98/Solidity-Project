@@ -2,6 +2,27 @@
 # MaryMart<br/>
 A decentralized Nft Marketplace for anime lovers,built on the ethereum blockchain<br/>
 
+## **Site Demo**
+
+**Overview of Pages**
+
+https://user-images.githubusercontent.com/114183913/215856361-2b1731ed-3f0d-41af-8a24-3e308c1e3e97.mp4
+
+<br/>
+
+**Create NFT Page**
+
+
+
+
+https://user-images.githubusercontent.com/114183913/215856908-d8a85f5e-3714-4b90-b7cb-fda7472708c2.mp4
+
+
+
+
+<br/>
+
+
 
 
 ## **Project Snapshot**<br/>
